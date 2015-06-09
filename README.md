@@ -38,43 +38,37 @@ The basics:
 
 ... and some variations:
 
-1. CamelCase
+1. Camel case
 
+	    $ snnm car --camel-case
+		...
+		CafeAuLait
+		...
 
-    $ snnm car -c
-	...
-	CafeAuLait
-	...
+2. Mixed case
 
+    	$ snnm car --mixed-case
+		...
+		cafeAuLait
+		...
 
-2. mixedCase:
+3. Underscore
 
+    	$ snnm car --underscore
+		...
+		cafe_au_lait
+		...
 
-    $ snnm car -m
-	...
-	cafeAuLait
-	...
+4. Constant
 
-3. underscore:
-
-
-    $ snnm car -u
-	...
-	cafe_au_lait
-	...
-
-
-4. CONSTANT:
-
-
-	$ snnm car -o
-	...
-	CAFE_AU_LAIT
-	...
+		$ snnm car --constant
+		...
+		CAFE_AU_LAIT
+		...
 
 
 
-And that's it. That's all it does... =)
+And that's it. That's all it does... =P
 
 ###Where does the data come from?
 
