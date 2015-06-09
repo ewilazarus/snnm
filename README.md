@@ -13,7 +13,7 @@ The first problem is only for smart people. The second one can be eased with the
 
 The basics:
 
-    $ snnm car
+    $ snnm coffee
 	perk
 	mud
 	brew
@@ -40,28 +40,28 @@ The basics:
 
 1. Camel case
 
-	    $ snnm car --camel-case
+	    $ snnm coffee --camel-case
 		...
 		CafeAuLait
 		...
 
 2. Mixed case
 
-    	$ snnm car --mixed-case
+    	$ snnm coffee --mixed-case
 		...
 		cafeAuLait
 		...
 
 3. Underscore
 
-    	$ snnm car --underscore
+    	$ snnm coffee --underscore
 		...
 		cafe_au_lait
 		...
 
 4. Constant
 
-		$ snnm car --constant
+		$ snnm coffee --constant
 		...
 		CAFE_AU_LAIT
 		...
