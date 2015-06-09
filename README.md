@@ -41,7 +41,7 @@ The basics:
 1. CamelCase
 
 
-    $ snnm car --camel-case
+    $ snnm car -c
 	...
 	CafeAuLait
 	...
@@ -50,7 +50,7 @@ The basics:
 2. mixedCase:
 
 
-    $ snnm car --mixed-case
+    $ snnm car -m
 	...
 	cafeAuLait
 	...
@@ -58,7 +58,7 @@ The basics:
 3. underscore:
 
 
-    $ snnm car --underscore
+    $ snnm car -u
 	...
 	cafe_au_lait
 	...
@@ -67,7 +67,7 @@ The basics:
 4. CONSTANT:
 
 
-	$ snnm car --constant
+	$ snnm car -o
 	...
 	CAFE_AU_LAIT
 	...
