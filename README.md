@@ -41,46 +41,42 @@ Some variations:
 1. CamelCase
 
     $ snnm car --camel-case
-    ...
+	(...)
 	Ink
 	BatteryAcid
 	CafeAuLait
 	CafeNoir
 	FortyWeight
-	...
 
 2. mixedCase
 
     $ snnm car --mixed-case
-	...
+	(...)
 	ink
 	batteryAcid
 	cafeAuLait
 	cafeNoir
 	fortyWeight
-	...
 
 3. underscore
 
     $ snnm car --underscore
-	...
+	(...)
 	ink
 	battery_acid
 	cafe_au_lait
 	cafe_noir
 	forty_weight
-	...
 
 4. CONSTANT
 
 	$ snnm car --constant
-	...
+	(...)
 	INK
 	BATTERY_ACID
 	CAFE_AU_LAIT
 	CAFE_NOIR
 	FORTY_WEIGHT
-	...
 
 
 And that's it. That's all it does... =)
