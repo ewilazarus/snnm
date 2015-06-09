@@ -38,100 +38,56 @@ The basics:
 
 Some variations:
 
+1. CamelCase
+
     $ snnm car --camel-case
-	Perk
-	Mud
-	Brew
-	Cafe
-	Cappuccino
-	Espresso
-	Caffeine
-	Java
-	Decaf
-	Decoction
-	Mocha
-	Demitasse
+    ...
 	Ink
 	BatteryAcid
 	CafeAuLait
 	CafeNoir
 	FortyWeight
-	HotStuff
-	Jamocha
-	Joe
-	VarnishRemover
+	...
+
+2. mixedCase
 
     $ snnm car --mixed-case
-	perk
-	mud
-	brew
-	cafe
-	cappuccino
-	espresso
-	caffeine
-	java
-	decaf
-	decoction
-	mocha
-	demitasse
+	...
 	ink
 	batteryAcid
 	cafeAuLait
 	cafeNoir
 	fortyWeight
-	hotStuff
-	jamocha
-	joe
-	varnishRemover
+	...
+
+3. underscore
 
     $ snnm car --underscore
-	perk
-	mud
-	brew
-	cafe
-	cappuccino
-	espresso
-	caffeine
-	java
-	decaf
-	decoction
-	mocha
-	demitasse
+	...
 	ink
 	battery_acid
 	cafe_au_lait
 	cafe_noir
 	forty_weight
-	hot_stuff
-	jamocha
-	joe
-	varnish_remover
+	...
+
+4. CONSTANT
 
 	$ snnm car --constant
-	PERK
-	MUD
-	BREW
-	CAFE
-	CAPPUCCINO
-	ESPRESSO
-	CAFFEINE
-	JAVA
-	DECAF
-	DECOCTION
-	MOCHA
-	DEMITASSE
+	...
 	INK
 	BATTERY_ACID
 	CAFE_AU_LAIT
 	CAFE_NOIR
 	FORTY_WEIGHT
-	HOT_STUFF
-	JAMOCHA
-	JOE
-	VARNISH_REMOVER
+	...
 
 
 And that's it. That's all it does... =)
+
+###Where does the data come from?
+
+All data comes from http://www.thesaurus.com/
 
 
 ###Documentation
