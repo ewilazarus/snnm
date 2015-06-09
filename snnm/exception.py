@@ -1,0 +1,2 @@
+class InvalidTermException(Exception):
+    pass
