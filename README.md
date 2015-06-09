@@ -40,6 +40,7 @@ Some variations:
 
 1. CamelCase
 
+
     $ snnm car --camel-case
 	(...)
 	Ink
@@ -48,7 +49,9 @@ Some variations:
 	CafeNoir
 	FortyWeight
 
+
 2. mixedCase
+
 
     $ snnm car --mixed-case
 	(...)
@@ -58,7 +61,9 @@ Some variations:
 	cafeNoir
 	fortyWeight
 
+
 3. underscore
+
 
     $ snnm car --underscore
 	(...)
@@ -68,7 +73,9 @@ Some variations:
 	cafe_noir
 	forty_weight
 
+
 4. CONSTANT
+
 
 	$ snnm car --constant
 	(...)
@@ -77,6 +84,7 @@ Some variations:
 	CAFE_AU_LAIT
 	CAFE_NOIR
 	FORTY_WEIGHT
+
 
 
 And that's it. That's all it does... =)
