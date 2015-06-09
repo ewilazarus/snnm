@@ -75,6 +75,9 @@ And that's it. That's all it does... =P
 All data comes from http://www.thesaurus.com/
 
 
-###Documentation
+###Installation
 
-TODO
+	pip install snnm
+
+
+**This package only works with Python 3.x**
