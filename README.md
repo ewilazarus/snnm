@@ -38,7 +38,7 @@ The basics:
 
 Some variations:
 
-1. CamelCase
+1. CamelCase:
 
 
     $ snnm car --camel-case
@@ -50,7 +50,7 @@ Some variations:
 	FortyWeight
 
 
-2. mixedCase
+2. mixedCase:
 
 
     $ snnm car --mixed-case
@@ -62,7 +62,7 @@ Some variations:
 	fortyWeight
 
 
-3. underscore
+3. underscore:
 
 
     $ snnm car --underscore
@@ -74,7 +74,7 @@ Some variations:
 	forty_weight
 
 
-4. CONSTANT
+4. CONSTANT:
 
 
 	$ snnm car --constant
