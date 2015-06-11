@@ -6,7 +6,7 @@ import logging
 
 from bs4 import BeautifulSoup
 
-from .exception import InvalidTermException
+from .misc import cached
 
 logger = logging.getLogger(__name__)
 _baseurl = 'http://www.thesaurus.com/browse/'
@@ -19,7 +19,7 @@ def _audit(term):
         logger.error(('Invalid term. Only letters and white spaces are '
                       'accepted' % term))
         logger.debug('Regex: ' + _regex.pattern)
-        raise InvalidTermException
+        raise ValueError('"%s" is not a valid term')
     logger.debug('Valid term!')
 
 
@@ -44,11 +44,12 @@ def _parse(html):
     for d in divs:
         spans = d.find_all('span', class_='text')
         logger.debug('spans found: %s' % len(spans))
-        synonyms += [s.string for s in spans]
+        synonyms += [str(s.string) for s in spans]
     logger.debug('Parse succeeded!')
     return synonyms
 
 
+@cached
 def scrape(term):
     logger.debug(('Attempting to scrape "%s" synonyms from '
                   'http://www.thesaurus.com'))
