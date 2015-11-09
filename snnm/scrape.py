@@ -38,7 +38,7 @@ def _fetch(url):
 def _parse(html):
     logger.debug('Attempting to parse HTML: %s (...)' % html[:250])
     synonyms = []
-    soup = BeautifulSoup(html)
+    soup = BeautifulSoup(html, 'lxml')
     divs = soup.find_all('div', class_='relevancy-list')
     logger.debug('divs found: %d' % len(divs))
     for d in divs:
