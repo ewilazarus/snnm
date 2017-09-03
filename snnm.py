@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 """
 snnm
 ~~~~
@@ -107,4 +109,5 @@ def main(expression, ugly_output):
         pass
 
 
-main()
+if __name__ == '__main__':
+    main()
