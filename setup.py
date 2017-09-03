@@ -1,6 +1,6 @@
 from setuptools import setup
 
-VERSION = '0.2.5'
+VERSION = '0.2.6'
 
 setup(name='snnm',
       version=VERSION,
@@ -11,6 +11,7 @@ setup(name='snnm',
       keywords='synonym',
       url='https://github.com/ewilazarus/snnm',
       download_url='https://github.com/ewilazarus/snnm/tarball/' + VERSION,
+      py_modules='snnm',
       install_requires=[
           'beautifulsoup4==4.6.0',
           'click==6.7',
