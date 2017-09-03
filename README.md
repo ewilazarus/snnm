@@ -5,69 +5,45 @@
 > -- Phil Karlton
 
 
-The first problem is for smart people only. The second one can be eased with the aid of snnm (SYNONYMS)
+The first problem is for smart people only. The second one can be eased with the
+aid of snnm (SYNONYMS)
 
 
 ## How it works
 
-The basics:
+```
+$ snnm coffee
+Synonyms for coffee:
+battery acid
+brew
+caffeine
+café
+café au lait
+café noir
+cappuccino
+decaf
+decoction
+demitasse
+espresso
+forty weight
+hot stuff
+ink
+jamocha
+java
+joe
+mocha
+mud
+perk
+varnish remover
 
-    $ snnm coffee
-	perk
-	mud
-	brew
-	café
-	cappuccino
-	espresso
-	caffeine
-	java
-	decaf
-	decoction
-	mocha
-	demitasse
-	ink
-	battery acid
-	café au lait
-	café noir
-	forty weight
-	hot stuff
-	jamocha
-	joe
-	varnish remover
+```
 
-... and some variations:
+Furthermore, it will try to paginate your results according to your terminal
+height.
 
-1. Camel case
+There's also a `-u | --ugly-output` flag that can be used in case you want to
+pipe your output into some other program.
 
-	    $ snnm coffee --camel-case
-		...
-		CafeAuLait
-		...
-
-2. Mixed case
-
-    	$ snnm coffee --mixed-case
-		...
-		cafeAuLait
-		...
-
-3. Underscore
-
-    	$ snnm coffee --underscore
-		...
-		cafe_au_lait
-		...
-
-4. Constant
-
-		$ snnm coffee --constant
-		...
-		CAFE_AU_LAIT
-		...
-
-
-
-And that's it. That's all it does... =P
 
 ## Where does the data come from?
 
@@ -76,7 +52,9 @@ All data comes from http://www.thesaurus.com/
 
 ## Installation
 
-	pip install snnm
+```
+$ pip install snnm
 
+```
 
-**This package only works with Python 3.x**
+**Note:** This is a Python 3 only package.

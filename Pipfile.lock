@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "8e329b081ce810b85644d45c02912309c9de096501fbf866be4abe0463b9573b"
+            "sha256": "41246c499abfdf9a044136c9f1d448dcec9f2904c0b32a50734abeccbb975c8a"
         },
         "requires": {},
         "sources": [
@@ -12,8 +12,26 @@
         ]
     },
     "default": {
+        "beautifulsoup4": {
+            "version": "==4.6.0"
+        },
+        "certifi": {
+            "version": "==2017.7.27.1"
+        },
+        "chardet": {
+            "version": "==3.0.4"
+        },
         "click": {
             "version": "==6.7"
+        },
+        "idna": {
+            "version": "==2.6"
+        },
+        "requests": {
+            "version": "==2.18.4"
+        },
+        "urllib3": {
+            "version": "==1.22"
         }
     },
     "develop": {}
