@@ -1,4 +1,4 @@
-# snnm
+# `snnm`
 
 > There are only two hard things in Computer Science: cache invalidation and naming things.
 >
@@ -6,7 +6,7 @@
 
 
 The first problem is for smart people only. The second one can be eased with the
-aid of snnm (SYNONYMS)
+aid of `snnm` (SYNONYMS)
 
 
 ## How it works
