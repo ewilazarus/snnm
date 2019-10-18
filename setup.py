@@ -15,7 +15,7 @@ setup(name='snnm',
       install_requires=[
           'beautifulsoup4==4.6.0',
           'click==6.7',
-          'requests==2.18.4'
+          'requests==2.20.0'
       ],
       entry_points={
           'console_scripts': ['snnm=snnm:main']
